@@ -4,8 +4,11 @@ This project details the development and analysis of an interactive Power BI das
 Insights and recommendations are provided on the following key areas:
 
 Category 1: Patient Volume & Demographics
+
 Category 2: Billing & Financial Performance
+
 Category 3: Treatment & Condition Insights
+
 Category 4: Provider & Geographic Trends
 
 The dataset was cleaned, aggregated, and analyzed using Power Query and DAX formulas before being visualized in Power BI, creating a clean, modern, and fully navigable user interface.
@@ -16,11 +19,11 @@ The dataset was cleaned, aggregated, and analyzed using Power Query and DAX form
 The data model comprises five tables capturing patient admissions, billing records, and demographic information from various hospitals and insurance providers, designed in a star schema. This structure efficiently supports the analysis of key performance indicators over the specified period.
 
 ## Tables
-Fact Hospital: The central fact table containing granular details of each patient admission, including Billing Amount, Date of Admission, Discharge Date, Doctor, Length of Stay, and linking keys to other dimensions. This table also includes Hospital Latitude and Hospital Longitude for geographic analysis, and Patient ID for unique patient tracking.
-Dim Patient: A dimension table providing detailed patient demographics and admission characteristics such as Admission Type, Age, Age Bands, Blood Type, Condition, Gender, and Insurance Provider.
-Dim Hospital: A dimension table containing unique Hospital names and additional hospital-specific attributes.
-Dim Medication: A dimension table listing distinct Medication types prescribed during admissions.
-DateTable: A standard date dimension table used for time-based filtering and analysis, including Date, Day, DayNumber, Month, and Month sh (shorthand month name).
+* Fact Hospital: The central fact table containing granular details of each patient admission, including Billing Amount, Date of Admission, Discharge Date, Doctor, Length of Stay, and linking keys to other dimensions. This table also includes Hospital Latitude and Hospital Longitude for geographic analysis, and Patient ID for unique patient tracking.
+* Dim Patient: A dimension table providing detailed patient demographics and admission characteristics such as Admission Type, Age, Age Bands, Blood Type, Condition, Gender, and Insurance Provider.
+* Dim Hospital: A dimension table containing unique Hospital names and additional hospital-specific attributes.
+* Dim Medication: A dimension table listing distinct Medication types prescribed during admissions.
+* DateTable: A standard date dimension table used for time-based filtering and analysis, including Date, Day, DayNumber, Month, and Month sh (shorthand month name).
 
 ## Calculated Measures
 Total Patients: Count of unique patient admissions (derived from Patient ID in Fact Hospital).
