@@ -13,7 +13,7 @@ Category 4: Provider & Geographic Trends
 
 The dataset was cleaned, aggregated, and analyzed using Power Query and DAX formulas before being visualized in Power BI, creating a clean, modern, and fully navigable user interface.
 
-[📊 Power BI Dashboard Link] (https://app.powerbi.com/view?r=eyJrIjoiNWNjNTZmN2EtYjJhMC00MjMzLTlmYWUtOGZlNGNkYjEzNmMwIiwidCI6IjM0YzAxYWRhLTc5MDItNGQ2My04MjgyLThkYzRiZjhmNTUxZCJ9) 
+[📊 Power BI Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiNWNjNTZmN2EtYjJhMC00MjMzLTlmYWUtOGZlNGNkYjEzNmMwIiwidCI6IjM0YzAxYWRhLTc5MDItNGQ2My04MjgyLThkYzRiZjhmNTUxZCJ9) 
 
 # Dataset Description
 The data model comprises five tables capturing patient admissions, billing records, and demographic information from various hospitals and insurance providers, designed in a star schema. This structure efficiently supports the analysis of key performance indicators over the specified period.
