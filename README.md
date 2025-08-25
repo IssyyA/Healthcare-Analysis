@@ -26,10 +26,10 @@ The data model comprises five tables capturing patient admissions, billing recor
 * DateTable: A standard date dimension table used for time-based filtering and analysis, including Date, Day, DayNumber, Month, and Month sh (shorthand month name).
 
 ## Calculated Measures
-Total Patients: Count of unique patient admissions (derived from Patient ID in Fact Hospital).
-Total Billing Amount: Sum of all Billing Amount from Fact Hospital.
-Avg Length of Stay: Average of Length of Stay from Fact Hospital.
-Most Common Condition: Dynamically identifies the most frequent Condition from Dim Patient.
-% YoY Growth: Year-over-Year percentage change for Total Patients and Total Billing.
-DAX Measures: Pre-calculated KPIs for breakdowns by gender, age, state, condition, and provider, utilizing fields from the various dimension tables linked to Fact Hospital.
+* Total Patients: Count of unique patient admissions (derived from Patient ID in Fact Hospital).
+* Total Billing Amount: Sum of all Billing Amount from Fact Hospital.
+* Avg Length of Stay: Average of Length of Stay from Fact Hospital.
+* Most Common Condition: Dynamically identifies the most frequent Condition from Dim Patient.
+* % YoY Growth: Year-over-Year percentage change for Total Patients and Total Billing.
+* DAX Measures: Pre-calculated KPIs for breakdowns by gender, age, state, condition, and provider, utilizing fields from the various dimension tables linked to Fact Hospital.
 
