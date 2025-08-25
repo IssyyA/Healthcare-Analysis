@@ -3,13 +3,13 @@ This project details the development and analysis of an interactive Power BI das
 
 Insights and recommendations are provided on the following key areas:
 
-Category 1: Patient Volume & Demographics
+* Category 1: Patient Volume & Demographics
 
-Category 2: Billing & Financial Performance
+* Category 2: Billing & Financial Performance
 
-Category 3: Treatment & Condition Insights
+* Category 3: Treatment & Condition Insights
 
-Category 4: Provider & Geographic Trends
+* Category 4: Provider & Geographic Trends
 
 The dataset was cleaned, aggregated, and analyzed using Power Query and DAX formulas before being visualized in Power BI, creating a clean, modern, and fully navigable user interface.
 
